@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Kumbh+Sans&family=Lato:wght@100;400&family=Poppins:wght@100;200&family=Roboto:wght@300&display=swap");
+/* css */
+body {
+  background-color: #202632;
+  color: #fff;
+  font-family: "Kumbh Sans", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 320px;
+  position: relative;
+  background-color: #313a49;
+  padding: 30px;
+  border-radius: 10px;
+}
+#ad-id {
+  text-align: center;
+  color: #53ffab;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+#pattern {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#dice {
+  position: absolute;
+  bottom: -20px;
+  background-color: #53ffab;
+  padding: 10px;
+  border-radius: 45%;
+  left: 167px;
+}
+#ad-body {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+
+/*RESPONSIVE */
+
+@media (max-width: 330px) {
+  #dice {
+    left: 130px;
+  }
+}
