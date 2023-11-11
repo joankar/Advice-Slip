@@ -39,9 +39,18 @@ body {
   bottom: -20px;
   background-color: #53ffab;
   padding: 10px;
+  cursor: pointer;
   border-radius: 45%;
   left: 167px;
 }
+
+#dice:hover {
+  background-color: bisque;
+}
+#dice:active {
+  transform: translateY(4px);
+}
+
 #ad-body {
   margin-top: 10px;
   margin-bottom: 30px;
